@@ -3,4 +3,5 @@ node_modules
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.config.yml
+!.elasticbeanstalk/config.yml
 !.elasticbeanstalk/*.global.yml
