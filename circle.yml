@@ -19,5 +19,5 @@ deployment:
   production:
     branch: master
     commands:
-    aws elasticbeanstalk update-environment --environment-name env-production
+    - aws elasticbeanstalk update-environment --environment-name env-production
     #   - eb deploy env-production
