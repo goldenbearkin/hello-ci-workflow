@@ -1,7 +1,8 @@
 branch-defaults:
   master:
     environment: env-production
-    group_suffix: null
+  develop:
+    environment: env-development
 global:
   application_name: hello-ci-workflow
   default_ec2_keyname: aws-eb4
