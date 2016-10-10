@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   pre:
-    - pip install --upgrade --user awsebcli
+    - pip install --upgrade awsebcli
     - docker build --rm=false -t hello-ci-workflow .
 
 test:
